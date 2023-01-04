@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.045" tests="13" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search\target\test-classes;c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search\target\classes;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\01159365\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\01159365\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\01159365\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\01159365\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\01159365\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\01159365\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\01159365\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\01159365\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\01159365\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\01159365\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\01159365\AppData\Local\Temp\surefire1862148305063194941\surefirebooter798939276374443005.jar C:\Users\01159365\AppData\Local\Temp\surefire1862148305063194941 2022-01-17T19-43-54_673-jvmRun1 surefire599578069541349140tmp surefire_01543929900846562774tmp"/>
+    <property name="surefire.test.class.path" value="c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search\target\test-classes;c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search\target\classes;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\01159365\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\01159365\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;C:\Users\01159365\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\01159365\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\01159365\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\01159365\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\01159365\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\01159365\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\01159365\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\01159365\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\01159365\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\01159365"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\01159365\AppData\Local\Temp\surefire1862148305063194941\surefirebooter798939276374443005.jar;C:\\Users\\01159365\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="01159365"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\01159365\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\01159365\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="c:\Users\01159365\Desktop\labyAlgorytmy\2021Z_AISD_lab_git_gr2_gr11\aisd_lab_12_finite_state_automaton_based_string_search"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\01159365\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\01159365\AppData\Local\Programs\Python\Python39\;C:\Users\01159365\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\01159365\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\01159365\Downloads\apache-maven-3.8.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldReturnThreeElemArray_When_TwoMatchesAreOverlapingAndOneIsNotInText_ByFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.017">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:35)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnThreeElemArray_When_TwoMatchesAreOverlapingAndOneIsNotInText_ByFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:130)
+</failure>
+    <system-out><![CDATA[banana ana ana [I@49298ce7
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnFirstFoundIndex_When_ThreeMatchesInText_ByFindFirstMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.007">
+    <failure message="expected: &lt;6&gt; but was: &lt;-1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <6> but was: <-1>
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:25)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnFirstFoundIndex_When_ThreeMatchesInText_ByFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:95)
+]]></failure>
+    <system-out><![CDATA[first match, second match match 6
+]]></system-out>
+  </testcase>
+  <testcase name="shouldThrowException_When_PatternIsNull" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.01"/>
+  <testcase name="shouldReturnEmptyArray_When_NoMatchInText_ByFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0"/>
+  <testcase name="shouldReturnMinusOne_When_NoMatchInText_ByFindFirstMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0"/>
+  <testcase name="shouldThrowException_When_PatternIsAnEmptyString" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.001"/>
+  <testcase name="shouldReturnTwoElemArray_When_TwoOverlapingMatchesInText_ByFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:35)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnTwoElemArray_When_TwoOverlapingMatchesInText_ByFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:123)
+</failure>
+    <system-out><![CDATA[banana ana [I@273842a6
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnFirstFoundIndex_When_TwoMatchesInText_ByFindFirstMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.001">
+    <failure message="expected: &lt;6&gt; but was: &lt;-1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <6> but was: <-1>
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:25)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnFirstFoundIndex_When_TwoMatchesInText_ByFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:90)
+]]></failure>
+    <system-out><![CDATA[first match, second match match 6
+]]></system-out>
+  </testcase>
+  <testcase name="shouldThrowException_When_TextForSearchingIsNull_InFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0"/>
+  <testcase name="shouldThrowException_When_TextForSearchingIsNull_InFindFirstMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0"/>
+  <testcase name="shouldReturnTwoElemArray_When_TwoNotOverlapingMatchesInText_ByFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.001">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:35)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnTwoElemArray_When_TwoNotOverlapingMatchesInText_ByFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:116)
+</failure>
+    <system-out><![CDATA[first match, second match, last match [I@3a022576
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnIndex_When_OneMatchInText_ByFindFirstMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0.001">
+    <failure message="expected: &lt;2&gt; but was: &lt;-1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <-1>
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:25)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnIndex_When_OneMatchInText_ByFindFirstMethod(DeterministicFiniteAutomatonTextSearchTest.java:85)
+]]></failure>
+    <system-out><![CDATA[some text me 2
+]]></system-out>
+  </testcase>
+  <testcase name="shouldReturnOneElemArray_When_OneMatchInText_ByFindAllMethod" classname="pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.testForFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:35)
+	at pl.edu.pw.ee.DeterministicFiniteAutomatonTextSearchTest.shouldReturnOneElemArray_When_OneMatchInText_ByFindAllMethod(DeterministicFiniteAutomatonTextSearchTest.java:109)
+</failure>
+    <system-out><![CDATA[first match, second, last match [I@4e628b52
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+pl\edu\pw\ee\HeapTest.class
+pl\edu\pw\ee\WriteToFileHeapSortTest.class
+pl\edu\pw\ee\SelectionSortTest.class
+pl\edu\pw\ee\QuickSortTest.class
+pl\edu\pw\ee\WriteToFileQuickSortTest.class
+pl\edu\pw\ee\InsertionSortTest.class
+pl\edu\pw\ee\WriteToFileSelectionSortTest.class
+pl\edu\pw\ee\HeapSortTest.class
+pl\edu\pw\ee\WriteToFileInsertionSortTest.class

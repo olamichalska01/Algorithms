@@ -1,0 +1,6 @@
+A D 2   
+B A 3
+D B 2   
+B A 19
+C A 5
+C D 8
